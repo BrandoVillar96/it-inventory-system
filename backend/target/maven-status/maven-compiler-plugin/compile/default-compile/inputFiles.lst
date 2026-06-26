@@ -1,1 +1,11 @@
 /Users/brandovillar/Documents/it-inventory-system/backend/src/main/java/com/itinventory/backend/BackendApplication.java
+/Users/brandovillar/Documents/it-inventory-system/backend/src/main/java/com/itinventory/backend/application/dto/BranchRequestDTO.java
+/Users/brandovillar/Documents/it-inventory-system/backend/src/main/java/com/itinventory/backend/application/dto/BranchResponseDTO.java
+/Users/brandovillar/Documents/it-inventory-system/backend/src/main/java/com/itinventory/backend/application/mapper/BranchMapper.java
+/Users/brandovillar/Documents/it-inventory-system/backend/src/main/java/com/itinventory/backend/application/service/BranchService.java
+/Users/brandovillar/Documents/it-inventory-system/backend/src/main/java/com/itinventory/backend/application/service/BranchServiceImpl.java
+/Users/brandovillar/Documents/it-inventory-system/backend/src/main/java/com/itinventory/backend/domain/entity/Branch.java
+/Users/brandovillar/Documents/it-inventory-system/backend/src/main/java/com/itinventory/backend/domain/repository/BranchRepository.java
+/Users/brandovillar/Documents/it-inventory-system/backend/src/main/java/com/itinventory/backend/infrastructure/config/GlobalExceptionHandler.java
+/Users/brandovillar/Documents/it-inventory-system/backend/src/main/java/com/itinventory/backend/infrastructure/config/SecurityConfig.java
+/Users/brandovillar/Documents/it-inventory-system/backend/src/main/java/com/itinventory/backend/presentation/controller/BranchController.java

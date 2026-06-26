@@ -1,1 +1,13 @@
+com/itinventory/backend/application/service/BranchService.class
 com/itinventory/backend/BackendApplication.class
+com/itinventory/backend/application/dto/BranchResponseDTO.class
+com/itinventory/backend/domain/repository/BranchRepository.class
+com/itinventory/backend/domain/entity/Branch.class
+com/itinventory/backend/application/mapper/BranchMapper.class
+com/itinventory/backend/application/service/BranchServiceImpl.class
+com/itinventory/backend/infrastructure/config/GlobalExceptionHandler.class
+com/itinventory/backend/application/mapper/BranchMapperImpl.class
+com/itinventory/backend/domain/entity/Branch$BranchBuilder.class
+com/itinventory/backend/application/dto/BranchRequestDTO.class
+com/itinventory/backend/presentation/controller/BranchController.class
+com/itinventory/backend/infrastructure/config/SecurityConfig.class
