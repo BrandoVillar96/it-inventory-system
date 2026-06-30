@@ -10,7 +10,9 @@ import org.mapstruct.MappingTarget;
 @Mapper(componentModel = "spring")
 public interface SupplyMapper {
 
+    @Mapping(target = "id", ignore = true)
     @Mapping(target = "branch", ignore = true)
+    @Mapping(target = "createdAt", ignore = true)
     Supply toEntity(SupplyRequestDTO dto);
 
     @Mapping(source = "branch.id", target = "branchId")
@@ -18,6 +20,8 @@ public interface SupplyMapper {
     @Mapping(expression = "java(supply.getQuantity() <= supply.getMinStock())", target = "lowStock")
     SupplyResponseDTO toDTO(Supply supply);
 
+    @Mapping(target = "id", ignore = true)
     @Mapping(target = "branch", ignore = true)
+    @Mapping(target = "createdAt", ignore = true)
     void updateEntity(SupplyRequestDTO dto, @MappingTarget Supply supply);
 }

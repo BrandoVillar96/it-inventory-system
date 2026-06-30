@@ -10,8 +10,11 @@ import org.mapstruct.MappingTarget;
 @Mapper(componentModel = "spring")
 public interface EquipmentMapper {
 
+    @Mapping(target = "id", ignore = true)
     @Mapping(target = "branch", ignore = true)
     @Mapping(target = "assignedTo", ignore = true)
+    @Mapping(target = "createdAt", ignore = true)
+    @Mapping(target = "updatedAt", ignore = true)
     Equipment toEntity(EquipmentRequestDTO dto);
 
     @Mapping(source = "branch.id", target = "branchId")
@@ -20,7 +23,10 @@ public interface EquipmentMapper {
     @Mapping(source = "assignedTo.fullName", target = "assignedToName")
     EquipmentResponseDTO toDTO(Equipment equipment);
 
+    @Mapping(target = "id", ignore = true)
     @Mapping(target = "branch", ignore = true)
     @Mapping(target = "assignedTo", ignore = true)
+    @Mapping(target = "createdAt", ignore = true)
+    @Mapping(target = "updatedAt", ignore = true)
     void updateEntity(EquipmentRequestDTO dto, @MappingTarget Equipment equipment);
 }
