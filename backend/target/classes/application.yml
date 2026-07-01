@@ -37,3 +37,6 @@ server:
 jwt:
   secret: ${JWT_SECRET:mySecretKeyForDevelopmentOnly12345678}
   expiration: 86400000
+
+file:
+  upload-dir: ./uploads
